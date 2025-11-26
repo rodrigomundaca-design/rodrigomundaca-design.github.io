@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proteína Nitro-Tech</title>
+    <style>
+     
+        * { 
+          box-sizing: border-box;
+           margin: 0;
+            padding: 0;
+           }
+
+        body { 
+          font-family: Arial, sans-serif;
+           line-height: 1.6;
+            padding-top: 60px;
+             color: #333;
+              background-color: #f4f4f4;
+           }
+        
+        header {
+           background-color: #2c3e50;
+            position: fixed;
+             width: 100%;
+              top: 0;
+               z-index: 1000;
+           }
+
+        nav { 
+          display: flex;
+           justify-content: space-between;
+            align-items: center;
+             padding: 16px 20px;
+              max-width: 1200px;
+               margin: 0 auto; 
+          }
+
+        .logo { 
+          color: #ecf0f1;
+           text-decoration: none;
+            font-size: 1.5rem;
+             font-weight: bold;
+           }
+        
+
+        .menu-lista { 
+          display: flex;
+           gap: 30px;
+            list-style: none;
+           }
+
+        .menu-lista a { 
+          color: #ecf0f1;
+           text-decoration: none;
+            font-weight: bold;
+           }
+        
+
+        .contenedor { 
+          width: 100%;
+           max-width: 800px;
+            margin: 0 auto;
+             padding: 20px;
+           }
+        
+        .caja-detalle { 
+            background-color: white; 
+            padding: 40px; 
+            border-radius: 10px; 
+            border: 1px solid #ddd; 
+            margin-top: 20px; 
+            text-align: center; 
+        }
+        .caja-detalle img { 
+          max-width: 100%;
+           border-radius: 10px; 
+           margin-bottom: 20px; 
+          }
+
+        .caja-detalle h1 {
+           color: #2c3e50;
+            margin-bottom: 20px;
+           }
+        
+        .precio { 
+          font-size: 2rem;
+           color: #e74c3c;
+            font-weight: bold; 
+            margin-bottom: 20px; 
+            display: block;
+          }
+        
+        .boton-volver { 
+            display: inline-block; 
+            margin-top: 30px; 
+            padding: 10px 20px; 
+            background-color: #2c3e50; 
+            color: white; 
+            text-decoration: none; 
+            border-radius: 5px; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="inicio.html" class="logo">PowerNutrition</a>
+            <ul class="menu-lista">
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="productos.html">Volver Atrás</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contenedor">
+        <div class="caja-detalle">
+            <img src="assets/musculo3.jpeg" alt="Proteína Nitro-Tech">
+            <h1>Proteína Nitro-Tech</h1>
+            <span class="precio">$49.990</span>
+            <p>
+                La fórmula de proteína más potente jamás desarrollada. Nitro-Tech contiene proteínas de suero de leche de la más alta calidad.
+                Es ideal para quienes buscan desarrollar masa muscular magra y mejorar su recuperación tras entrenamientos intensos.
+            </p>
+            <br>
+            <p><strong>Sabor:</strong> Chocolate / Vainilla</p>
+            <p><strong>Porciones:</strong> 70 servicios</p>
+            
+            <a href="productos.html" class="boton-volver">Volver a Productos</a>
+        </div>
+    </div>
+</body>
+</html>
